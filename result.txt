@@ -1,0 +1,40 @@
+.
+optimization finished, #iter = 11
+Objective value = -50.494436
+Accuracy = 71.8% (1795/2500)
+...
+optimization finished, #iter = 36
+Objective value = -48.423897
+Accuracy = 77.52% (1938/2500)
+.
+optimization finished, #iter = 11
+Objective value = -52.152329
+Accuracy = 72.4% (1810/2500)
+...
+optimization finished, #iter = 32
+Objective value = -50.150049
+Accuracy = 78.36% (1959/2500)
+.
+optimization finished, #iter = 10
+Objective value = -50.934494
+Accuracy = 70.88% (1772/2500)
+...
+optimization finished, #iter = 39
+Objective value = -48.795452
+Accuracy = 77.92% (1948/2500)
+.
+optimization finished, #iter = 14
+Objective value = -49.458412
+Accuracy = 69.16% (1729/2500)
+...
+optimization finished, #iter = 39
+Objective value = -47.715074
+Accuracy = 73.88% (1847/2500)
+.
+optimization finished, #iter = 11
+Objective value = -49.977236
+Accuracy = 73.44% (1836/2500)
+..
+optimization finished, #iter = 25
+Objective value = -48.015373
+Accuracy = 78.24% (1956/2500)
