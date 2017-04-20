@@ -115,6 +115,8 @@ class ISF:
 	samp_list_test, test_cls_total, test_term_dict = read_fbyline(fname_input_test)		
 
 	for fold in xrange(foldnum):	#xrange(foldnum)
+	    print("="*50)
+	    print("flod" + str(fold)+':')
 	    acc_list2 = []
 	    fname_samps_test = task_dir + os.sep +  self.source_domain.split('.')[0] + '2' + self.target_domain.split('.')[0] + 'test.samp' + str(fold+1)
 	    fname_samps_train = task_dir + os.sep +  self.source_domain.split('.')[0] + '2' + self.target_domain.split('.')[0] + 'train.samp' + str(fold+1)				
@@ -178,7 +180,8 @@ class ISF:
 		    print 'classification for baseline'
 		    acc = pytc.liblinear_exe(fname_samps_train, fname_samps_test, fname_model_libsvm, fname_output_libsvm, learn_opt, classifly_opt) 
 		
-		print 'classification for original features plus dot product features'
+		print('-'*50)
+		print 'classification for our isf method'
 		acc2 = pytc.liblinear_exe(fname_newtrain_sample1, fname_newtest_sample1, fname_newmodel_libsvm1, fname_newoutput_libsvm1, learn_opt, classifly_opt) 
 		acc_list2.append(acc2)			
 	    fout = open(fname_comp, 'w')
