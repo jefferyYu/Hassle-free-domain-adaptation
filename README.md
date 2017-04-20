@@ -22,6 +22,8 @@ You can directly run our codes
 
 python ISF_sparse.py 
 
+For convenience, to show our running process, we also attach the "result_example.txt" file.
+
 2. How to apply it to your own task?
 
 If you want to use our codes for your own classification task, you should first preprocess your datasets, and save their files into the standard format (like the input of libSVM).
