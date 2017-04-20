@@ -1,0 +1,95 @@
+==================================================
+flod0:
+save baseline samples
+transform samples
+classification for baseline
+
+Liblinear executive classifing...
+.
+optimization finished, #iter = 11
+Objective value = -50.494436
+Accuracy = 71.8% (1795/2500)
+--------------------------------------------------
+classification for our isf method
+
+Liblinear executive classifing...
+....
+optimization finished, #iter = 40
+Objective value = -48.558419
+Accuracy = 77.68% (1942/2500)
+==================================================
+flod1:
+save baseline samples
+transform samples
+classification for baseline
+
+Liblinear executive classifing...
+.
+optimization finished, #iter = 11
+Objective value = -52.152329
+Accuracy = 72.4% (1810/2500)
+--------------------------------------------------
+classification for our isf method
+
+Liblinear executive classifing...
+...
+optimization finished, #iter = 34
+Objective value = -50.085573
+Accuracy = 77.8% (1945/2500)
+==================================================
+flod2:
+save baseline samples
+transform samples
+classification for baseline
+
+Liblinear executive classifing...
+.
+optimization finished, #iter = 10
+Objective value = -50.934494
+Accuracy = 70.88% (1772/2500)
+--------------------------------------------------
+classification for our isf method
+
+Liblinear executive classifing...
+....
+optimization finished, #iter = 44
+Objective value = -48.518377
+Accuracy = 78.44% (1961/2500)
+==================================================
+flod3:
+save baseline samples
+transform samples
+classification for baseline
+
+Liblinear executive classifing...
+.
+optimization finished, #iter = 14
+Objective value = -49.458412
+Accuracy = 69.16% (1729/2500)
+--------------------------------------------------
+classification for our isf method
+
+Liblinear executive classifing...
+...
+optimization finished, #iter = 33
+Objective value = -47.488111
+Accuracy = 74.64% (1866/2500)
+==================================================
+flod4:
+save baseline samples
+transform samples
+classification for baseline
+
+Liblinear executive classifing...
+.
+optimization finished, #iter = 11
+Objective value = -49.977236
+Accuracy = 73.44% (1836/2500)
+--------------------------------------------------
+classification for our isf method
+
+Liblinear executive classifing...
+..
+optimization finished, #iter = 23
+Objective value = -47.763026
+Accuracy = 76.36% (1909/2500)
